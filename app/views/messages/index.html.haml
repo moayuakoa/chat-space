@@ -1,2 +1,31 @@
-%h1 Messages#index
-%p Find me in app/views/messages/index.html.haml
+.wrapper
+  = render "side_bar"
+  
+  .chat
+    .header
+      .left-header
+        .left-header__title
+          members
+        .left-header__members
+          Member：
+          %p.member
+            仙石
+          %p.member
+            大河
+          %p.member
+            万石
+      .right-header
+        .right-header__button
+          = link_to "#", class:"edit" do
+            Edit
+
+    = render "main_chat"
+      
+    .form
+      %form.form__message
+        .input-box
+          %input{type: "text", class: "input-box__text", placeholder: "message"}
+          %label{class: "input-box__image"}
+            = icon('fas', 'image')
+            %input.hidden{type: 'file', class: "input-box__image__file"}
+        %input.form__submit{type: 'submit', value: 'Send'}
