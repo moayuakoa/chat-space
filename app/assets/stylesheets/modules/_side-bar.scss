@@ -1,0 +1,62 @@
+.wrapper {
+  height: 100vh;
+  @include flexbox;
+  
+  .side-bar {
+    width: 300px;
+    
+    .side-header {
+      height: 100px;
+      background-color: #253141;
+      @include flexbox;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      
+      &__user-name {
+        height: 20px;
+        color: $white;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      &__lists {
+        width: 50px;
+        @include flexbox;
+        li {
+          width: 20px;
+          margin-left: 5px;
+          font-size: 1.0rem;
+          color: $white;
+        }
+        a {
+          color: $white;
+        }
+      }
+    }
+    .groups {
+      height: calc(100vh - 100px);
+      background-color: #2f3e51;
+      padding: 0 20px;
+      overflow: scroll;
+      
+      .group {
+        color: $white;
+        box-sizing: border-box;
+        padding: 20px 0 40px;
+
+        &__group-name {
+          font-size: 15px;
+          font-weight: bold;
+          color: $white;
+        }
+        
+        &__latest-message {
+          font-size: 11px;
+          font-weight: bold;
+          color: $white;
+        }
+      }
+    }
+  }
+}

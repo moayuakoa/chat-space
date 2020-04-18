@@ -1,0 +1,22 @@
+.side-bar
+  .side-header
+    %h2.side-header__user-name
+      name
+    %ul.side-header__lists
+      %li.side-header__list
+        = link_to do
+          = icon('fa', 'edit')
+      %li.side-header__list
+        = link_to do
+          = icon('fas', 'cog')
+  .groups
+    .group
+      .group__group-name
+        members
+        .group__latest-message
+          まだメッセージがありません
+    .group
+      .group__group-name
+        members
+        .group__latest-message
+          まだメッセージがありません
