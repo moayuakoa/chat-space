@@ -81,7 +81,6 @@
     form {
       @include flexbox;
       .input-box {
-        width: 100%;
         @include flexbox;
         position: relative;
         &__text {
