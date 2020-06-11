@@ -1,5 +1,7 @@
 # README
+グループを作って、チャットができるアプリケーション
 
+[![Image from Gyazo](https://i.gyazo.com/44f3e4169f29bc6badd7592f14eca031.gif)](https://gyazo.com/44f3e4169f29bc6badd7592f14eca031)
 ## usersテーブル
 
 |Column|Type|Options|
