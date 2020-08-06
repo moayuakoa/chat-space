@@ -10,6 +10,7 @@
 ### グループ編集画面
 [![Image from Gyazo](https://i.gyazo.com/a50f823e4e58f908bd0aa31fd94950c5.gif)](https://gyazo.com/a50f823e4e58f908bd0aa31fd94950c5)
 
+### メッセージ送信画面
 [![Image from Gyazo](https://i.gyazo.com/44f3e4169f29bc6badd7592f14eca031.gif)](https://gyazo.com/44f3e4169f29bc6badd7592f14eca031)
 ## usersテーブル
 
