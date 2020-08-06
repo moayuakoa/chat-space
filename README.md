@@ -1,6 +1,15 @@
 # README
 グループを作って、チャットができるアプリケーション
 
+### サインイン
+[![Image from Gyazo](https://i.gyazo.com/42fc183d9c7a995589001d2317bc67d1.png)](https://gyazo.com/42fc183d9c7a995589001d2317bc67d1)
+
+### ログイン
+[![Image from Gyazo](https://i.gyazo.com/0411950678db89cd1a9b7afed81fc94f.png)](https://gyazo.com/0411950678db89cd1a9b7afed81fc94f)
+
+### グループ編集画面
+[![Image from Gyazo](https://i.gyazo.com/a50f823e4e58f908bd0aa31fd94950c5.gif)](https://gyazo.com/a50f823e4e58f908bd0aa31fd94950c5)
+
 [![Image from Gyazo](https://i.gyazo.com/44f3e4169f29bc6badd7592f14eca031.gif)](https://gyazo.com/44f3e4169f29bc6badd7592f14eca031)
 ## usersテーブル
 
